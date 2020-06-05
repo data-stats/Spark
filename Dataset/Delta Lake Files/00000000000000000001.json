@@ -1,0 +1,15 @@
+{"commitInfo":{"timestamp":1591203719632,"userId":"3761488228352788","userName":"****************@gmail.com",
+"operation":"DELETE","operationParameters":{"predicate":"[\"(`DeptNo` = 'B')\"]"},
+"notebook":{"notebookId":"3219540693816814"},"clusterId":"0603-164708-wits678","readVersion":0,
+"isolationLevel":"WriteSerializable","isBlindAppend":false,"operationMetrics":{"numTotalRows":"8","numFiles":"1",
+"numRemovedFiles":"1","numCopiedRows":"6","numDeletedRows":"2","numOutputRows":"6","numParts":"0",
+"numOutputBytes":"1124","numAddedFiles":"1"}}}
+
+
+{"remove":{"path":"part-00000-86221987-22b4-4cf8-af78-d76f7c819d1e-c000.snappy.parquet",
+"deletionTimestamp":1591203719609,"dataChange":true}}
+{"add":{"path":"part-00000-2fe0f352-96db-457b-8607-5aa42940d9f3-c000.snappy.parquet",
+"partitionValues":{},"size":1125,"modificationTime":1591203720000,"dataChange":true,
+"stats":"{\"numRecords\":6,\"minValues\":{\"Id\":101,\"Name\":\"Deck\",\"DeptNo\":\"A\",\"Salary\":1200},
+\"maxValues\":{\"Id\":108,\"Name\":\"Ron\",\"DeptNo\":\"C\",\"Salary\":4000},
+\"nullCount\":{\"Id\":0,\"Name\":0,\"DeptNo\":0,\"Salary\":0}}"}}

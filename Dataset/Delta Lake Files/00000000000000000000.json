@@ -1,0 +1,17 @@
+{"commitInfo":{"timestamp":1591184815691,"userId":"3761488228352788","userName":"***************@gmail.com","operation":"WRITE",
+"operationParameters":{"mode":"ErrorIfExists","partitionBy":"[]"},"notebook":{"notebookId":"3219540693816814"},
+"clusterId":"0603-112212-mien416","isolationLevel":"WriteSerializable","isBlindAppend":true,
+"operationMetrics":{"numFiles":"1","numOutputBytes":"1163","numOutputRows":"8","numParts":"0"}}}
+
+{"protocol":{"minReaderVersion":1,"minWriterVersion":2}}
+
+{"metaData":{"id":"22a2fc64-f6f9-4da1-bcfc-f3cc7854cd73","format":{"provider":"parquet","options":{}},
+"schemaString":"{\"type\":\"struct\",\"fields\":[{\"name\":\"Id\",\"type\":\"integer\",\"nullable\":true,\"metadata\":{}},
+{\"name\":\"Name\",\"type\":\"string\",\"nullable\":true,\"metadata\":{}},{\"name\":\"DeptNo\",\"type\":\"string\",
+\"nullable\":true,\"metadata\":{}},{\"name\":\"Salary\",\"type\":\"integer\",\"nullable\":true,\"metadata\":{}}]}",
+"partitionColumns":[],"configuration":{},"createdTime":1591184812060}}
+{"add":{"path":"part-00000-86221987-22b4-4cf8-af78-d76f7c819d1e-c000.snappy.parquet","partitionValues":{},
+"size":1164,"modificationTime":1591184816000,"dataChange":true,"stats":
+"{\"numRecords\":8,\"minValues\":{\"Id\":101,\"Name\":\"Deck\",\"DeptNo\":\"A\",\"Salary\":800},
+\"maxValues\":{\"Id\":108,\"Name\":\"Vos\",\"DeptNo\":\"C\",\"Salary\":4000},
+\"nullCount\":{\"Id\":0,\"Name\":0,\"DeptNo\":0,\"Salary\":0}}"}}
